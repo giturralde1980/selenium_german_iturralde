@@ -1,0 +1,8 @@
+<test suite ="tests">
+    <test name="test">
+        <classes>
+            <class name="InterviewQuestionSiteTest"/>
+            <class name="PruebaNetflixTest"/>
+        </classes>
+    </test>
+</test>
