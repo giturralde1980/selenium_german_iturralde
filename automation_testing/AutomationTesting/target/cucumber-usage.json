@@ -1,0 +1,56 @@
+[
+  {
+    "source": "a case is created after a sumission ocr process finish with a mismatch",
+    "steps": [
+      {
+        "name": "a case is created after a sumission ocr process finish with a mismatch",
+        "aggregatedDurations": {
+          "median": 11.878059,
+          "average": 11.878059
+        },
+        "durations": [
+          {
+            "duration": 11.878059,
+            "location": "file:///Users/german.itiurralde/IdeaProjects/AutomationTesting/src/test/java/TestScenarios/salesforce.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "a request is done against salesforce to ocrresult given  previous case",
+    "steps": [
+      {
+        "name": "a request is done against salesforce to ocrresult given  previous case",
+        "aggregatedDurations": {
+          "median": 0.81893,
+          "average": 0.81893
+        },
+        "durations": [
+          {
+            "duration": 0.81893,
+            "location": "file:///Users/german.itiurralde/IdeaProjects/AutomationTesting/src/test/java/TestScenarios/salesforce.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "ocrresult is obtained and matches with case request",
+    "steps": [
+      {
+        "name": "ocrresult is obtained and matches with case request",
+        "aggregatedDurations": {
+          "median": 0.103632,
+          "average": 0.103632
+        },
+        "durations": [
+          {
+            "duration": 0.103632,
+            "location": "file:///Users/german.itiurralde/IdeaProjects/AutomationTesting/src/test/java/TestScenarios/salesforce.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]

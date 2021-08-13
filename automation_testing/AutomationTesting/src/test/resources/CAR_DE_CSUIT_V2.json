@@ -1,0 +1,360 @@
+{
+  "external_application_id":"1483-9013-5001-0000016",
+  "portfolio_owner_id":"KFZ-2004",
+  "insured_object":{
+    "inputs":[
+      {
+        "name":"object.vehicle.license-plate",
+        "value":"KA-AA 12"
+      },
+      {
+        "name":"object.vehicle.registration.area",
+        "value":"Dorsten"
+      },
+      {
+        "name":"object.vehicle.id",
+        "value":"WVWZZZZUZHW353123"
+      },
+      {
+        "name":"person.car-holder-is-policy-holder.yes",
+        "value":true
+      }
+    ],
+    "type":"car"
+  },
+  "payment_details":{
+    "type":"DirectDebit",
+    "direct_debit_iban":"DE89370400440532013000",
+    "direct_debit_iban_name_holder":"german iturralde"
+  },
+  "start_date":"2020-02-28",
+  "product_id":"p_YsMwxuaCF9RAcnDXTvkGwERF",
+  "coverages":[
+    {
+      "label":"Self caused damage own vehicle",
+      "name":"car.own-vehicle-self-damage",
+      "comment":"Up to the vehicle value",
+      "line_id":"1",
+      "type":"dynamic"
+    },
+    {
+      "label":"Major damage during the use of ships and ferries for passenger cars",
+      "name":"car.major-damage-using-ships.yes",
+      "comment":"Up to the vehicle value",
+      "line_id":"1",
+      "type":"dynamic"
+    },
+    {
+      "label":"Vandalism Protection",
+      "name":"car.vandalism",
+      "comment":"Up to the vehicle value",
+      "line_id":"1",
+      "type":"dynamic"
+    },
+    {
+      "label":"Replacement of parts without deduction",
+      "name":"car.coverage.part-replacement.deductible",
+      "premium":0,
+      "line_id":"2",
+      "type":"dynamic"
+    },
+    {
+      "label":"Animal Damage Protection",
+      "name":"car.coverage.animal-damage-protection",
+      "comment":"All animals, Up to the vehicle value",
+      "line_id":"2",
+      "type":"dynamic"
+    },
+    {
+      "label":"Damages caused by animal bites",
+      "name":"car.coverage.animal-bites",
+      "comment":"Up to the vehicle value",
+      "line_id":"2",
+      "type":"dynamic"
+    },
+    {
+      "label":"Glass repair without deduction",
+      "name":"car.coverage.glass-deduction.yes",
+      "line_id":"1",
+      "type":"dynamic"
+    },
+    {
+      "label":"Waiver of objection in case of gross negligence",
+      "name":"car.coverage.gross-negligence",
+      "comment":"included, Up to the vehicle value",
+      "line_id":"0",
+      "type":"dynamic"
+    },
+    {
+      "label":"Registration and transfer costs",
+      "name":"car.coverage.registration-transfer-costs",
+      "line_id":"0",
+      "type":"dynamic"
+    },
+    {
+      "label":"Protection of special equipment",
+      "name":"car.coverage.special-equipment",
+      "value":5000,
+      "comment":"Up to 5.000 €",
+      "line_id":"1",
+      "type":"dynamic"
+    },
+    {
+      "label":"Replacement of operating materials",
+      "name":"car.coverage.replacement-operating-materials",
+      "line_id":"1",
+      "type":"dynamic"
+    },
+    {
+      "label":"Refund of purchase price",
+      "name":"car.coverage.refund-purchase-price",
+      "comment":"Up to 24 month in case of total damage or theft",
+      "line_id":"1",
+      "type":"dynamic"
+    },
+    {
+      "label":"Short circuit damage",
+      "name":"car.coverage.short-circuit",
+      "value":5000,
+      "comment":"Up to 5.000 €",
+      "line_id":"1",
+      "type":"dynamic"
+    },
+    {
+      "label":"Compensation new vehicle value",
+      "name":"car.coverage.compensation-new-value",
+      "premium":0,
+      "comment":"Up to 24 month",
+      "line_id":"1",
+      "type":"dynamic"
+    },
+    {
+      "label":"Property Damage",
+      "name":"car.coverage.property-damage",
+      "value":100000000,
+      "comment":"Up to 100.000.000 €",
+      "line_id":"2",
+      "type":"dynamic"
+    },
+    {
+      "label":"Personal Injury",
+      "name":"car.coverage.personal-injury",
+      "value":15000000,
+      "comment":"Up to 15.000.000 €",
+      "line_id":"2",
+      "type":"dynamic"
+    },
+    {
+      "label":"First party damage",
+      "name":"car.coverage.first-party-damage-coverage",
+      "value":100000,
+      "comment":"Up to 100.000 € with garage binding",
+      "line_id":"2",
+      "type":"dynamic"
+    },
+    {
+      "label":"Extended Car Rental Protection - Personal Injury",
+      "name":"car.coverage.extended-car-rental-protection-personal-injury",
+      "value":15000000,
+      "comment":"Up to 15.000.000 €",
+      "line_id":"2",
+      "type":"dynamic"
+    },
+    {
+      "label":"Extended Car Rental Protection - Property damage",
+      "name":"car.coverage.extended-car-rental-protection-property-damage",
+      "value":100000000,
+      "comment":"Up to 100.000.000 €",
+      "line_id":"2",
+      "type":"dynamic"
+    }
+  ],
+  "external_id":"HPkimCzXr",
+  "inputs":[
+    {
+      "name":"car.package",
+      "value":"Comfort"
+    },
+    {
+      "name": "car.no-claim-discount.type",
+      "value":"previous_class_takeover"
+    },
+    {
+      "name":"car.vehicle-liability.no-claim-discount",
+      "value":"true/false"
+    },
+    {
+      "name":"car.product-type",
+      "value":"fully-comprehensive"
+    },
+    {
+      "name":"car.partial-comprehensive.deductible",
+      "value":300
+    },
+    {
+      "name":"car.vehicle-liability.deductible",
+      "value":0
+    },
+    {
+      "name":"car.fully-comprehensive.deductible",
+      "value":150
+    },
+    {
+      "name":"object.vehicle.current-mileage",
+      "value":27000
+    },
+    {
+      "name":"object.vehicle.hsn",
+      "value":"0603"
+    },
+    {
+      "name":"object.vehicle.tsn",
+      "value":"BPF"
+    },
+    {
+      "name":"object.new-registration.yes",
+      "value":false
+    },
+    {
+      "name":"object.previous-insurer",
+      "value":"50510005"
+    },
+    {
+      "name":"object.policy-number-previous-insurance",
+      "value":"2697189"
+    },
+    {
+      "name":"person.birthdate",
+      "value":"1992-09-16"
+    },
+    {
+      "name":"car.vehicle.driver.other",
+      "value":false
+    },
+    {
+      "name":"person.address.postcode",
+      "value":"46282"
+    },
+    {
+      "name":"car.vehicle.kilometers.yearly",
+      "value":15000
+    },
+    {
+      "name":"car.fully-comprehensive.no-claim-discount",
+      "value":"0"
+    },
+    {
+      "name":"car.vehicle-liability.no-claim-discount",
+      "value":"0"
+    },
+    {
+      "name":"object.vehicle.registration.first.date",
+      "value":"2017-07-17"
+    },
+    {
+      "name":"object.vehicle.insured.first.date",
+      "value":"2019-02-28"
+    },
+    {
+      "name":"car.discount-protection.yes",
+      "value":false
+    },
+    {
+      "name":"car.abroad-protection.yes",
+      "value":false
+    },
+    {
+      "name":"car.garage-binding.yes",
+      "value":false
+    },
+    {
+      "name":"car.part-replacement.deductible.yes",
+      "value":true
+    },
+    {
+      "name":"car.gap-coverage.yes",
+      "value":false
+    },
+    {
+      "name":"car.assistance.yes",
+      "value":false
+    },
+    {
+      "name":"car.new-value-compensation.yes",
+      "value":true
+    },
+    {
+      "name":"car.new-valuecompensation.yes",
+      "value":false
+    },
+    {
+      "name":"car.better-performance-guarantee.yes",
+      "value":false
+    },
+    {
+      "name":"car.driver-protection.yes",
+      "value":false
+    },
+    {
+      "name":"car.variable-commission-rate",
+      "value":0
+    },
+    {
+      "name":"car.vehicle.driver.youngest.age",
+      "value": "18"
+    },
+    {
+      "name":"car.start-date",
+      "value":"2020-02-28"
+    }
+  ],
+  "insurance_lines":[
+    {
+      "id":"0",
+      "name":"Car Fully Comp"
+    },
+    {
+      "id":"1",
+      "name":"Car Partial Comp"
+    },
+    {
+      "id":"2",
+      "name":"Car Liability"
+    }
+  ],
+  "payments":[
+
+  ],
+  "portfolio_owners":[
+
+  ],
+  "user":{
+    "name":"pro-check24",
+    "id":"5d945c0c4f736000047a549e"
+  },
+  "customer":{
+    "first_name":"german",
+    "last_name":"iturralde",
+    "gender":"0",
+    "birthdate":"1992-09-16T00:00:00.000Z",
+    "mobile_number":"01731409725",
+    "phone_number":"01731409725",
+    "email":"german.iturralde+1609_2@wefoxgroup.com",
+    "address":{
+      "street":"Alter Postweg",
+      "house_number":"40",
+      "postal_code":"46282",
+      "place":"Dorsten",
+      "country":"DE"
+    }
+  },
+  "premium_without_tax":61.46,
+  "premium_with_tax":73.14,
+  "tax":11.68,
+  "currency":"EUR",
+  "product_version":"2",
+  "payment_frequency":"Yearly",
+  "created_date":"2020-01-26T20:57:40.894Z",
+  "last_modified_date":"2020-01-26T20:57:40.894Z",
+  "insurance_id":"5da59f1c67eeae011461e2a7"
+}

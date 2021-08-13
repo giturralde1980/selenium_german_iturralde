@@ -1,0 +1,25 @@
+{
+  "reason":{
+    "ocrResult":[
+      {
+        "result":"333.75",
+        "field":"Yearly Premium",
+        "mismatch":true,
+        "expected":"145.5"
+      },
+      {
+        "result":"3-63.787.007-2",
+        "field":"Insurance Policy Number",
+        "mismatch":false,
+        "expected":"4-63.787.007-3"
+      }
+    ]
+  },
+  "subject":"Daten (Brokerportal/ Vorjahresrechnung) stimmen nicht überein",
+  "contract":"a0r3N000003MKMSQA4",
+  "origin":"Internal",
+  "description":"First Name - SF: Detlef | OCR: Detlef\nLast Name - SF: Mielchen | OCR: Mielchen\nStreet Name - SF: Dammort | OCR: Dammort\nStreet Number - SF: 1a | OCR: 1A\nPost Code - SF: 49635 | OCR: 49635\nCity - SF: Badbergen | OCR: Badbergen\nInsurancePolicyNumber - SF: 2-63.787.007-2 | OCR: 2-63.787.007-2\n!!! Insurance - SF: null | OCR: DIALOG VERSICHERUNG AG\n!!! Yearly Premium - SF: 26.93 | OCR: 323.15999999999997\nLicencePlate - SF: OS-BU 551 | OCR: OS-BU 551\nVinNumber - SF: WF0UXXGAJU3Y49641 | OCR: null\nCurrency - SF: EUR | OCR: EUR\nDateOfInvoiceContract - November 2020\n",
+  "category":"123 - Beitragsrechnung Hyperscience",
+  "account":"0013N00000jAxtwQAC",
+  "status":"Pending ONE"
+}

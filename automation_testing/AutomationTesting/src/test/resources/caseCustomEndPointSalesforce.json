@@ -1,0 +1,28 @@
+{
+  "status": "Pending ONE",
+  "category": "123 - Beitragsrechnung Hyperscience",
+  "subject": "Daten (Brokerportal/ Vorjahresrechnung) stimmen nicht überein",
+  "contractId": "a0r3N000003MSO6QAO",
+  "accountId": "0013N00000jDTHbQAO",
+  "origin": "Internal",
+  "description": "First Name - SF: Detlefq | OCR: Detlef\nLast Name - SF: Mielchen | OCR: Mielchen\nStreet Name - SF: Dammort | OCR: Dammort\nStreet Number - SF: 1a | OCR: 1A\nPost Code - SF: 49635 | OCR: 49635\nCity - SF: Badbergen | OCR: Badbergen\nInsurancePolicyNumber - SF: 2-63.787.007-2 | OCR: 2-63.787.007-2\n!!! Insurance - SF: null | OCR: DIALOG VERSICHERUNG AG\n!!! Yearly Premium - SF: 26.93 | OCR: 323.15\nLicencePlate - SF: OS-BU 551 | OCR: OS-BU 551\nVinNumber - SF: WF0UXXGAJU3Y49641 | OCR: null\nCurrency - SF: EUR | OCR: EUR\nDateOfInvoiceContract - November 2020\n",
+  "reason": {
+    "ocrResult": {
+      "ocrId": "444n00002en2dRRRAS",
+      "result": [
+
+        {
+          "mismatch": true,
+          "field": "Name",
+          "expected": "german",
+          "result": "pepep"
+        }, {
+          "mismatch": true,
+          "field": "lastname",
+          "expected": "iturralde",
+          "result": "peres"
+        }
+      ]
+    }
+  }
+}

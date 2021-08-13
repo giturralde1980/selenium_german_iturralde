@@ -1,0 +1,7 @@
+<test suite ="tests">
+    <test name="tests">
+        <classes>
+            <class name="practicos.selenium.practico12.testNG.testNg"/>
+        </classes>
+    </test>
+</test>

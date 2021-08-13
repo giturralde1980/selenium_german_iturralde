@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-10T08:17:43.325Z",
+        "line": 4,
+        "name": "Case is created with mismatch result between salesforce and ocr-hyperscience",
+        "description": "",
+        "id": "custom-salesforce-endpoint-for-enablig-unmatching-searches-with-ocr-result;case-is-created-with-mismatch-result-between-salesforce-and-ocr-hyperscience",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11878059000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "a case is created after a sumission ocr process finish with a mismatch",
+            "match": {
+              "location": "TestSteps.SalesforceSteps.createcaseaftermismatc()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 818930000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a request is done against salesforce to ocrresult given  previous case",
+            "match": {
+              "location": "TestSteps.SalesforceSteps.requestOcrResultToSalesforceByCaseId()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103632000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "ocrresult is obtained and matches with case request",
+            "match": {
+              "location": "TestSteps.SalesforceSteps.thirdcond()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Custom Salesforce endpoint for enablig unmatching searches with ocr result",
+    "description": "",
+    "id": "custom-salesforce-endpoint-for-enablig-unmatching-searches-with-ocr-result",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/TestScenarios/salesforce.feature",
+    "tags": []
+  }
+]

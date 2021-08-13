@@ -1,0 +1,558 @@
+{
+  "status": {
+    "code": 2,
+    "name": "Pending"
+  },
+  "_id": "6051d3c8bc65b9f2b3732e03",
+  "start_date": "2022-01-17",
+  "portfolio_owners": [
+    {
+      "_id": "6051d3c8bc65b9734d732e04",
+      "type": "BROKER",
+      "code": " ",
+      "legal_id": "35223716418899PMRSSJJ1801"
+    }
+  ],
+  "documents": [],
+  "insured_object": {
+    "inputs": [
+      {
+        "name": "object.vehicle.license-plate",
+        "value": "ZH123454"
+      },
+      {
+        "name": "policy-language",
+        "value": "FR"
+      },
+      {
+        "name": "object.vehicle.national-type-code",
+        "value": "123456790"
+      },
+      {
+        "name": "product.motor.previous-insurer-id",
+        "value": "1234"
+      },
+      {
+        "name": "product.motor.previous-policy-number",
+        "value": "1213453425"
+      },
+      {
+        "name": "object.vehicle.eurotax-id",
+        "value": "100580003"
+      },
+      {
+        "name": "object.channel-id",
+        "value": "BP-B2C"
+      },
+      {
+        "name": "object.vehicle.registration-area",
+        "value": "Zürich"
+      },
+      {
+        "name": "object.vehicle.registration-area.abbreviation",
+        "value": "ZH"
+      },
+      {
+        "name": "object.liability.no-claim-discount",
+        "value": 2
+      },
+      {
+        "name": "object.comprehensive.fully.no-claim-discount",
+        "value": 2
+      },
+      {
+        "name": "object.vehicle.lang-code",
+        "value": "CHDE"
+      },
+      {
+        "name": "product.motor.coverage.additional-driver.is-included",
+        "value": true
+      },
+      {
+        "name": "object.vehicle.driver.youngest.age",
+        "value": 18
+      },
+      {
+        "name": "object.vehicle.brand",
+        "value": "ISUZU (J)"
+      },
+      {
+        "name": "object.vehicle.model",
+        "value": "Piazza 2.0 Turbo Lotus"
+      }
+    ],
+    "type": "car"
+  },
+  "payment_details": {
+    "type": "invoice"
+  },
+  "product_id": "p_CarSwitchSwitzerland",
+  "external_id": "CAR_202193710081",
+  "coverages": [
+    {
+      "label": "Service Hotline",
+      "name": "car.coverage.service-hotline.yes",
+      "type": "static",
+      "value": true
+    },
+    {
+      "label": "24-hours Claims Hotline",
+      "name": "car.coverage.24-hrs-claims-hotline.yes",
+      "type": "static",
+      "value": true
+    },
+    {
+      "label": "Property Damage",
+      "name": "car.coverage.liability.property-damage",
+      "type": "static",
+      "value": 100000000,
+      "comment": "Up to 100.000.000 CHF"
+    },
+    {
+      "label": "Extended Car Rental Protection - Property damage",
+      "name": "car.coverage.liability.extended-car-rental-protection-property-damage",
+      "type": "static",
+      "value": 100000000,
+      "comment": "Up to 100.000.000 CHF"
+    },
+    {
+      "label": "Abroad protection",
+      "name": "car.coverage.liability.abroad-protection",
+      "type": "static",
+      "value": 100000000,
+      "comment": "Geographical Europe and EU, up to 100.000.000 CHF"
+    },
+    {
+      "label": "First party damage",
+      "name": "car.coverage.liability.first-party-damage-coverage",
+      "type": "static",
+      "value": 5000,
+      "comment": "Up to 5.000 CHF"
+    },
+    {
+      "label": "Better performance guarantee",
+      "name": "car.coverage.liability.better-performance-guarantee",
+      "type": "static",
+      "value": true,
+      "comment": "Included for 36 months."
+    },
+    {
+      "label": "Interchangeable license plate",
+      "name": "car.coverage.liability.interchangeable-license-plate",
+      "type": "static",
+      "value": 100000000,
+      "comment": "Up to 100.000.000 CHF."
+    },
+    {
+      "label": "Replacement vehicle",
+      "name": "car.coverage.liability.replacement-vehicle",
+      "type": "static",
+      "value": 100000000,
+      "comment": "Up to 100.000.000 CHF."
+    },
+    {
+      "label": "Suspension bonus",
+      "name": "car.coverage.liability.suspension-bonus",
+      "type": "static",
+      "value": true,
+      "comment": "100% of liability premium."
+    },
+    {
+      "label": "Deductible for young drivers (under 25 years)",
+      "name": "car.coverage.liability.young-driver.deductible",
+      "type": "static",
+      "value": 1000,
+      "comment": "1.000 CHF."
+    },
+    {
+      "label": "Short circuit damage",
+      "name": "car.coverage.comprehensive.partial.short-circuit",
+      "type": "static",
+      "value": 5000,
+      "comment": "Up to 5.000 CHF"
+    },
+    {
+      "label": "Theft and robbery",
+      "name": "car.coverage.comprehensive.partial.theft-and-robbery",
+      "type": "static",
+      "value": true,
+      "comment": "Up to the vehicle value"
+    },
+    {
+      "label": "Fire and explosion",
+      "name": "car.coverage.comprehensive.partial.fire-and-explosion",
+      "type": "static",
+      "value": true,
+      "comment": "Up to the vehicle value"
+    },
+    {
+      "label": "Car Elemental damage",
+      "name": "car.coverage.comprehensive.partial.elemental",
+      "type": "static",
+      "value": true,
+      "comment": "Up to the vehicle value"
+    },
+    {
+      "label": "Animal Damage Protection",
+      "name": "car.coverage.comprehensive.partial.animal-damage-protection",
+      "type": "static",
+      "value": true,
+      "comment": "All animals, Up to the vehicle value"
+    },
+    {
+      "label": "Damages caused by animal bites",
+      "name": "car.coverage.comprehensive.partial.animal-bites",
+      "type": "static",
+      "value": 5000
+    },
+    {
+      "label": "Vandalism Protection",
+      "name": "car.coverage.comprehensive.partial.vandalism",
+      "type": "static",
+      "value": true,
+      "comment": "Up to the vehicle value"
+    },
+    {
+      "label": "Support",
+      "name": "car.coverage.comprehensive.partial.services",
+      "type": "static",
+      "value": true
+    },
+    {
+      "label": "Glass damage",
+      "name": "car.coverage.comprehensive.partial.glass-damage",
+      "type": "static",
+      "value": true,
+      "comment": "Up to the vehicle value"
+    },
+    {
+      "label": "Glass damage repair",
+      "name": "car.coverage.comprehensive.partial.glass-repair",
+      "type": "static",
+      "value": true
+    },
+    {
+      "label": "Protection of special equipment",
+      "name": "car.coverage.comprehensive.partial.special-equipment",
+      "type": "static",
+      "value": 50000,
+      "comment": "Up to 30% vehicle value (max. 50.000 CHF)"
+    },
+    {
+      "label": "Better performance guarantee",
+      "name": "car.coverage.comprehensive.partial.better-performance-guarantee",
+      "type": "static",
+      "value": true,
+      "comment": "Included for 36 months."
+    },
+    {
+      "label": "Replacement vehicle",
+      "name": "car.coverage.comprehensive.partial.replacement-vehicle",
+      "type": "static",
+      "value": true
+    },
+    {
+      "label": "Suspension bonus",
+      "name": "car.coverage.comprehensive.partial.suspension-bonus",
+      "type": "static",
+      "value": true,
+      "comment": "100% of partial comprehensive premium."
+    },
+    {
+      "label": "Garage Binding",
+      "name": "car.coverage.comprehensive.partial.garage-choice.yes",
+      "type": "static",
+      "value": true
+    },
+    {
+      "label": "Personal effects",
+      "name": "car.coverage.comprehensive.partial.personal-effects",
+      "type": "static",
+      "value": 2000,
+      "comment": "Up to 2.000 CHF."
+    },
+    {
+      "label": "Collision damage",
+      "name": "car.coverage.comprehensive.fully.own-vehicle-collision-damage",
+      "type": "static",
+      "comment": "Up to the vehicle value"
+    },
+    {
+      "label": "Suspension bonus",
+      "name": "car.coverage.comprehensive.fully.suspension-bonus",
+      "type": "static",
+      "comment": "100% of collison casco premium."
+    },
+    {
+      "label": "Better performance guarantee",
+      "name": "car.coverage.comprehensive.fully.better-performance-guarantee",
+      "type": "static",
+      "comment": "Included for 36 months."
+    },
+    {
+      "label": "Garage Binding",
+      "name": "car.coverage.comprehensive.fully.garage-choice.yes",
+      "type": "static",
+      "value": false
+    },
+    {
+      "label": "Discount protection",
+      "name": "product.motor.coverage.discount-protection.is-included",
+      "value": true,
+      "type": "dynamic"
+    },
+    {
+      "label": "Deductible for vehicle liability",
+      "name": "product.motor.coverage.liability.deductible",
+      "value": true,
+      "type": "dynamic"
+    },
+    {
+      "label": "Extended Glass damage",
+      "name": "product.motor.coverage.comprehensive.partial.glass-damage-exchange.is-included",
+      "type": "dynamic",
+      "value": true,
+      "comment": "Up to the vehicle value"
+    },
+    {
+      "label": "Compensation new vehicle value",
+      "name": "product.motor.coverage.comprehensive.partial.compensation-new-value.is-included",
+      "type": "dynamic",
+      "value": true,
+      "comment": "Up to the vehicle value"
+    },
+    {
+      "label": "Deductible for partial comprehensive",
+      "name": "product.motor.coverage.comprehensive.partial.deductible",
+      "type": "dynamic",
+      "value": true
+    },
+    {
+      "label": "Discount protection",
+      "name": "product.motor.coverage.discount-protection.is-included",
+      "value": true,
+      "type": "dynamic"
+    },
+    {
+      "label": "Parking damage",
+      "name": "product.motor.coverage.comprehensive.fully.parking-damage.is-included",
+      "type": "dynamic",
+      "value": true,
+      "comment": "Up to 3.000 CHF."
+    },
+    {
+      "label": "Compensation new vehicle value",
+      "name": "product.motor.coverage.comprehensive.fully.compensation-new-value.is-included",
+      "type": "dynamic",
+      "value": true,
+      "comment": "Up to the vehicle value"
+    },
+    {
+      "label": "Deductible for fully comprehensive",
+      "name": "product.motor.coverage.comprehensive.fully.deductible",
+      "type": "dynamic",
+      "value": true
+    },
+    {
+      "label": "24-hrs assistance hotline",
+      "name": "car.coverage.assistance.hotline",
+      "value": true,
+      "type": "dynamic"
+    },
+    {
+      "label": "Replacement of small parts",
+      "name": "car.coverage.assistance.replacement-small-parts",
+      "value": true,
+      "type": "dynamic"
+    },
+    {
+      "label": "Recovery of the vehicle",
+      "name": "car.coverage.assistance.vehicle-recovery",
+      "type": "dynamic",
+      "value": 2000,
+      "comment": "Up to 2.000 CHF."
+    },
+    {
+      "label": "Stand fees",
+      "name": "car.coverage.assistance.stand-fees",
+      "type": "dynamic",
+      "value": 250,
+      "comment": "Up to 250 CHF."
+    },
+    {
+      "label": "Return of the vehicle",
+      "name": "car.coverage.assistance.vehicle-return",
+      "type": "dynamic",
+      "value": 3000,
+      "comment": "Up to 3.000 CHF."
+    },
+    {
+      "label": "Delivery costs for spare parts",
+      "name": "car.coverage.assistance.delivery-costs-spare-part",
+      "type": "dynamic",
+      "value": true
+    },
+    {
+      "label": "Additional costs for transportation",
+      "name": "car.coverage.assistance.additional-costs-transport",
+      "type": "dynamic",
+      "value": 1000,
+      "comment": "Up to 1.000 CHF per insured person."
+    },
+    {
+      "label": "Additional costs for accomodation",
+      "name": "car.coverage.assistance.addititonal-costs-accomodation",
+      "type": "dynamic",
+      "value": 150,
+      "comment": "Up to 150 CHF per insured person. Maximal for 5 days"
+    },
+    {
+      "label": "Driver replacement",
+      "name": "car.coverage.assistance.replacement-driver",
+      "type": "dynamic",
+      "value": true
+    },
+    {
+      "label": "Fuel breakdown, battery breakdown",
+      "name": "car.coverage.assistance.fuel-breakdown",
+      "type": "dynamic",
+      "value": true
+    },
+    {
+      "label": "Replacement vehicle",
+      "name": "car.coverage.assistance.replacement-vehicle",
+      "type": "dynamic",
+      "value": 1500,
+      "comment": "Up to 1.500 CHF."
+    },
+    {
+      "label": "Gross Negligence",
+      "name": "product.motor.coverage.comprehensive.gross-negligence.is-included",
+      "value": true,
+      "type": "dynamic"
+    }
+  ],
+  "inputs": [
+    {
+      "name": "product.motor.product-type",
+      "value": "partial-comprehensive"
+    },
+    {
+      "name": "product.motor.coverage.liability.deductible",
+      "value": 500
+    },
+    {
+      "name": "product.motor.coverage.comprehensive.partial.deductible",
+      "value": 300
+    },
+    {
+      "name": "product.motor.coverage.comprehensive.fully.deductible",
+      "value": 500
+    },
+    {
+      "name": "product.motor.coverage.discount-protection.is-included",
+      "value": true
+    },
+    {
+      "name": "product.motor.coverage.vehicle-assistance.is-included",
+      "value": true
+    },
+    {
+      "name": "product.motor.coverage.comprehensive.partial.compensation-new-value.is-included",
+      "value": false
+    },
+    {
+      "name": "product.motor.coverage.comprehensive.fully.parking-damage.is-included",
+      "value": false
+    },
+    {
+      "name": "product.motor.coverage.comprehensive.partial.glass-damage-extended.is-included",
+      "value": false
+    },
+    {
+      "name": "product.motor.coverage.comprehensive.gross-negligence.is-included",
+      "value": true
+    },
+    {
+      "name": "product.motor.coverage.passenger-cover.is-included",
+      "value": true
+    },
+    {
+      "name": "product.motor.previous-premium-amount",
+      "value": 300
+    },
+    {
+      "name": "product.motor.coverage.comprehensive.fully.parking-damage.is-included",
+      "value": true
+    },
+    {
+      "name": "product.motor.package",
+      "value": "Car-Switch"
+    }
+  ],
+  "insurance_lines": [],
+  "payments": [],
+  "premium_breakdown": [
+    {
+      "type": "Liability",
+      "premium_with_tax": 70.3,
+      "premium_without_tax": 62.49,
+      "tax": 7.79
+    },
+    {
+      "type": "Assistance",
+      "premium_with_tax": 71.3,
+      "premium_without_tax": 67.86,
+      "tax": 3.44
+    },
+    {
+      "type": "Gross Negligence",
+      "premium_with_tax": 38,
+      "premium_without_tax": 36.2,
+      "tax": 1.8
+    },
+    {
+      "type": "Comprehensive",
+      "premium_with_tax": 105.5,
+      "premium_without_tax": 100.44,
+      "tax": 5.0600000000000005
+    }
+  ],
+  "user": {
+    "name": "pro-check24",
+    "id": "5d945c0c4f736000047a549e"
+  },
+  "customer": {
+    "legal_name":"legal entity",
+    "type": "legal_entity",
+    "address": {
+      "state": null,
+      "country": "CH",
+      "house_number": "11",
+      "place": "Zurich",
+      "postal_code": "1020",
+      "street": "Harzer Str"
+    },
+    "email": "german.iturralde+2803legal@wefox.com",
+    "mobile_number": "603673635",
+    "phone_number": "936474832",
+    "birthdate": "1998-01-18",
+    "first_name": "",
+    "gender": "0",
+    "last_name": ""
+  },
+  "calculation_date": "2021-03-17",
+  "premium_without_tax": 266.99,
+  "premium_with_tax": 285.1,
+  "tax": 18.09,
+  "currency": "CHF",
+  "product_version": "2",
+  "payment_frequency": "Half-Yearly",
+  "revocation_date_limit": "Mon Jan 17 2022 00:00:00 GMT+0000",
+  "package": {
+    "name": "Car Fully Comp ",
+    "label": "fully-comprehensive"
+  },
+  "created_date": "2021-03-17T10:02:48.897Z",
+  "last_modified_date": "2021-03-17T10:02:48.897Z"
+}

@@ -1,0 +1,5 @@
+
+Scenario: Case is created with mismatch result between salesforce and ocr-hyperscience [90m# src/test/java/TestScenarios/salesforce.feature:4[0m
+  [32mGiven [0m[32ma case is created after a sumission ocr process finish with a mismatch[0m         [90m# TestSteps.SalesforceSteps.createcaseaftermismatc()[0m
+  [32mWhen [0m[32ma request is done against salesforce to ocrresult given  previous case[0m          [90m# TestSteps.SalesforceSteps.requestOcrResultToSalesforceByCaseId()[0m
+  [32mThen [0m[32mocrresult is obtained and matches with case request[0m                             [90m# TestSteps.SalesforceSteps.thirdcond()[0m

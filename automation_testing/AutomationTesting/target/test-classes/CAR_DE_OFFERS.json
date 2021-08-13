@@ -1,0 +1,453 @@
+{
+  "status": {
+    "code": 2,
+    "name": "Pending"
+  },
+  "_id": "5fd7f46cf1ca93c64525eb84",
+  "external_application_id": "",
+  "portfolio_owner_id": "KFZ-2004",
+  "insured_object": {
+    "inputs": [
+      {
+        "name": "object.vehicle.registration.area",
+        "value": "Denkendorf"
+      },
+      {
+        "name": "person.car-holder-is-policy-holder.yes",
+        "value": true
+      },
+      {
+        "name": "object.vehicle.previous-insurer.id",
+        "value": "5525"
+      },
+      {
+        "name": "object.vehicle.previous-insurer.policy-number",
+        "value": "V90072385482"
+      },
+      {
+        "name": "object.vehicle.current-mileage",
+        "value": 0
+      },
+      {
+        "name": "object.car.vb-number",
+        "value": "9NCCSMV"
+      }
+    ],
+    "type": "car"
+  },
+  "payment_details": {
+    "type": "DirectDebit",
+    "direct_debit_iban": "DE80611500200102822090",
+    "direct_debit_iban_name_holder": "Banana Abdullah"
+  },
+  "start_date": "2020-12-14",
+  "product_id": "p_CarNewGermany",
+  "external_id": "3103_11",
+  "coverages": [
+    {
+      "label": "Personal Injury",
+      "name": "product.motor.coverage.liability.personal-injury.sum-insured",
+      "type": "static",
+      "value": 15000000,
+      "comment": "Versicherungssumme für Personenschäden (je geschädigter Person)\n"
+    },
+    {
+      "label": "Property Damage",
+      "name": "product.motor.coverage.liability.property-damage.sum-insured",
+      "type": "static",
+      "value": 100000000,
+      "comment": "Versicherungssumme bei Sach-, Vermögensschäden"
+    },
+    {
+      "label": "Extended Car Rental Protection - Personal Injury",
+      "name": "product.motor.coverage.liability.extended-vehicle-rental-protection-personal-injury.sum-insured",
+      "type": "static",
+      "value": 15000000,
+      "comment": "Erweiterter Mietwagenschutz im Ausland (Mallorca Police) für Personenschäden"
+    },
+    {
+      "label": "Extended Car Rental Protection - Property damage",
+      "name": "product.motor.coverage.liability.extended-vehicle-rental-protection-property-damage.sum-insured",
+      "type": "static",
+      "value": 100000000,
+      "comment": "Erweiterter Mietwagenschutz im Ausland (Mallorca Police) für Sach- und Vermögensschäden"
+    },
+    {
+      "label": "First party damage",
+      "name": "product.motor.coverage.liability.firstparty-damage.sum-insured",
+      "type": "static",
+      "value": "up to 100.000 € with garage binding",
+      "comment": "Eigenschadendeckung"
+    },
+    {
+      "label": "Driver protection",
+      "name": "product.motor.coverage.passenger-cover.driver-protection.is-included",
+      "type": "static",
+      "value": false,
+      "comment": "Fahrerschutzversicherung"
+    },
+    {
+      "label": "Abroad protection",
+      "name": "product.motor.coverage.liability.abroad-protection.sum-insured",
+      "type": "static",
+      "value": 100000000,
+      "comment": "Auslandschadenschutz (Grüne Karte)"
+    },
+    {
+      "label": "Better performance guarantee",
+      "name": "product.motor.coverage.liability.better-performance-guarantee.is-included",
+      "type": "static",
+      "value": false,
+      "comment": "Besserleistungsgarantie bzgl. Vorversicherungsvertrag - KH"
+    },
+    {
+      "label": "Claims under the Environmental Damage Act",
+      "name": "product.motor.coverage.liability.environmental-damage.sum-insured",
+      "type": "static",
+      "value": 100000000,
+      "comment": "Ansprüche nach dem Umweltschadengesetz"
+    },
+    {
+      "label": "Damages caused by animal bites",
+      "name": "product.motor.coverage.comprehensive.partial.animal-bites.sum-insured",
+      "type": "static",
+      "value": "up to the vehicle value",
+      "comment": "Schäden durch Tierbiss und Folgeschäden"
+    },
+    {
+      "label": "Short circuit damage",
+      "name": "product.motor.coverage.comprehensive.partial.short-circuit.sum-insured",
+      "type": "static",
+      "value": 5000,
+      "comment": "Kurzschlussschäden an der Verkabelung und Folgeschäden"
+    },
+    {
+      "label": "Waiver of objection in case of gross negligence",
+      "name": "product.motor.coverage.comprehensive.partial.gross-negligence.sum-insured",
+      "type": "static",
+      "value": "included, up to the vehicle value",
+      "comment": "Verzicht auf Einwand bei grober Fahrlässigkeit"
+    },
+    {
+      "label": "Protection of special equipment",
+      "name": "product.motor.coverage.comprehensive.partial.special-equipment.sum-insured",
+      "type": "static",
+      "value": 5000,
+      "comment": "Absicherung von Sonderausstattung (z.B. Navi)"
+    },
+    {
+      "label": "Replacement of parts without deduction",
+      "name": "product.motor.coverage.comprehensive.replacement-of-parts-without-deduction.is-included",
+      "type": "static",
+      "value": true,
+      "comment": "Ersatz alter Teile durch neue ohne Abzug"
+    },
+    {
+      "label": "Elemental Damages",
+      "name": "product.motor.coverage.comprehensive.partial.elemental-damages.sum-insured",
+      "type": "static",
+      "value": "up to the vehicle value",
+      "comment": "Elementarschäden"
+    },
+    {
+      "label": "Extended Elemental Damages",
+      "name": "product.motor.coverage.comprehensive.partial.elemental-damages-extended.sum-insured",
+      "type": "static",
+      "value": "up to the vehicle value",
+      "comment": "Erweiterte Deckung von Elementarschäden"
+    },
+    {
+      "label": "Garage Binding",
+      "name": "product.motor.coverage.comprehensive.garage-binding.is-included",
+      "type": "static",
+      "value": false,
+      "comment": "Werkstattbindung"
+    },
+    {
+      "label": "Animal Damage Protection",
+      "name": "product.motor.coverage.comprehensive.partial.animal-damage.sum-insured",
+      "type": "static",
+      "value": "all animals, up to the vehicle value",
+      "comment": "Zusammenstoß mit Tieren"
+    },
+    {
+      "label": "Glass repair coverage without deduction",
+      "name": "product.motor.coverage.comprehensive.partial.glass-damage-without-deduction.is-included",
+      "type": "static",
+      "value": true,
+      "comment": "Verzicht auf Selbstbehalt bei Reparatur des Glasbruchschadens"
+    },
+    {
+      "label": "Refund of purchase price",
+      "name": "product.motor.coverage.comprehensive.partial.refund-purchase-price.sum-insured",
+      "type": "static",
+      "value": "up to 24 month in case of total damage or theft",
+      "comment": "Erstattung Kaufpreis (rel. Für Gebrauchtwagen)"
+    },
+    {
+      "label": "Registration and transfer costs",
+      "name": "product.motor.coverage.comprehensive.partial.registration-and-transfer-costs.is-included",
+      "type": "static",
+      "value": true,
+      "comment": "Zulassungs- u. Überführungskosten bei Neuwertentschädigung Pkw"
+    },
+    {
+      "label": "Recycling cost In case of total loss",
+      "name": "product.motor.coverage.comprehensive.recycling-costs.is-included",
+      "type": "static",
+      "value": true,
+      "comment": "Entsorgungs- u. Resteverwertungskosten bei Totalschaden Pkw"
+    },
+    {
+      "label": "Replacement of operating materials",
+      "name": "product.motor.coverage.comprehensive.replacement-of-operating-materials.is-included",
+      "type": "static",
+      "value": true,
+      "comment": "Ersatz von Brems- und Betriebsstoffen bei Pkw-Reparatur"
+    },
+    {
+      "label": "Compensation new vehicle value",
+      "name": "product.motor.coverage.comprehensive.partial.compensation-new-value.sum-insured",
+      "type": "static",
+      "value": "up to 24 month",
+      "comment": "Neuwertentschädigung (rel. für Neuwagen)"
+    },
+    {
+      "label": "Fire and explosion",
+      "name": "product.motor.coverage.comprehensive.partial.fire-and-explosion.sum-insured",
+      "type": "static",
+      "value": "up to the vehicle value",
+      "comment": "Brand und Explosion"
+    },
+    {
+      "label": "Glass damage",
+      "name": "product.motor.coverage.comprehensive.partial.glass-damage.sum-insured",
+      "type": "static",
+      "value": "up to the vehicle value",
+      "comment": "Glasbruch bei Austausch"
+    },
+    {
+      "label": "Theft and robbery",
+      "name": "product.motor.coverage.comprehensive.partial.theft-and-robbery.sum-insured",
+      "type": "static",
+      "value": "up to the vehicle value",
+      "comment": "Diebstahl und Raub"
+    },
+    {
+      "label": "Better performance guarantee",
+      "name": "product.motor.coverage.comprehensive.partial.better-performance-guarantee.is-included",
+      "type": "static",
+      "value": false,
+      "comment": "Besserleistungsgarantie bzgl. Vorversicherungsvertrag -TK"
+    },
+    {
+      "label": "Self caused damage own vehicle",
+      "name": "product.motor.coverage.comprehensive.fully.own-vehicle-self-damage.sum-insured",
+      "type": "static",
+      "value": "up to the vehicle value",
+      "comment": "Selbst verschuldete Schäden am eigenen Fahrzeug"
+    },
+    {
+      "label": "Major damage during the use of ships and ferries for passenger cars",
+      "name": "product.motor.coverage.comprehensive.fully.major-damage-using-ships.sum-insured",
+      "type": "static",
+      "value": "up to the vehicle value",
+      "comment": "Große Havarie bei der Benutzung von Schiffen und Fähren bei Pkw in der VK"
+    },
+    {
+      "label": "Vandalism Protection",
+      "name": "product.motor.coverage.comprehensive.fully.vandalism.sum-insured",
+      "type": "static",
+      "value": "up to the vehicle value",
+      "comment": "Vandalismus und mutwillige Beschädigung"
+    },
+    {
+      "label": "Better performance guarantee",
+      "name": "product.motor.coverage.comprehensive.fully.better-performance-guarantee.is-included",
+      "type": "static",
+      "value": false,
+      "comment": "Besserleistungsgarantie bzgl. Vorversicherungsvertrag - VK"
+    },
+    {
+      "label": "Tow damage",
+      "name": "product.motor.coverage.comprehensive.fully.tow-damage.sum-insured",
+      "type": "static",
+      "value": "up to the vehicle value",
+      "comment": "Schäden zwischen ziehendem und gezogenem Fahrzeug/Anhänger (ohne Impuls von Außen)"
+    },
+    {
+      "label": "Assistance",
+      "name": "product.motor.coverage.vehicle-assistance.is-included",
+      "type": "dynamic",
+      "comment": "Schutzbrief",
+      "value": false
+    },
+    {
+      "label": "Discount protection",
+      "name": "product.motor.coverage.liability.discount-protection.is-included",
+      "type": "dynamic",
+      "comment": "Rabattschutz, inklusive Schäden, die durch deliktunfähige Kinder verursacht wurden",
+      "value": false
+    },
+    {
+      "label": "Deductible for partial comprehensive",
+      "name": "product.motor.coverage.comprehensive.partial.deductible",
+      "type": "dynamic",
+      "comment": "Teilkasko Selbstbehalt",
+      "value": 150
+    },
+    {
+      "label": "Discount protection",
+      "name": "product.motor.coverage.comprehensive.fully.discount-protection.is-included",
+      "type": "dynamic",
+      "comment": "Vollkasko Rabattschutz",
+      "value": false
+    },
+    {
+      "label": "GAP Coverage",
+      "name": "product.motor.coverage.comprehensive.fully.gap-coverage.is-included",
+      "type": "dynamic",
+      "comment": "GAP Deckung für Leasung-Fahrzeuge",
+      "value": true
+    },
+    {
+      "label": "Deductible for fully comprehensive",
+      "name": "product.motor.coverage.comprehensive.fully.deductible",
+      "type": "dynamic",
+      "comment": "Vollkasko Selbstbehalt",
+      "value": 150
+    }
+  ],
+  "documents": [],
+  "inputs": [
+    {
+      "name": "car.no-claim-discount.type",
+      "value":"previous_class_takeover"
+    },
+    {
+      "name": "car.package",
+      "value": "comfort"
+    },
+    {
+      "name": "car.product-type",
+      "value": "fully-comprehensive"
+    },
+    {
+      "name": "car.partial-comprehensive.deductible",
+      "value": 300
+    },
+    {
+      "name": "car.fully-comprehensive.deductible",
+      "value": 1000
+    },
+    {
+      "name": "object.vehicle.hsn",
+      "value": "3004"
+    },
+    {
+      "name": "object.vehicle.tsn",
+      "value": "680"
+    },
+    {
+      "name": "person.birthdate",
+      "value": "1986-01-01"
+    },
+    {
+      "name": "car.vehicle.driver.other",
+      "value": false
+    },
+    {
+      "name": "person.address.postcode",
+      "value": "73770"
+    },
+    {
+      "name": "car.vehicle.kilometers.yearly",
+      "value": 14000
+    },
+    {
+      "name": "object.vehicle.registration.first.date",
+      "value": "2020-12-14"
+    },
+    {
+      "name": "object.vehicle.insured.first.date",
+      "value": "2020-12-14"
+    },
+    {
+      "name": "car.discount-protection.yes",
+      "value": true
+    },
+    {
+      "name": "car.gap-coverage.yes",
+      "value": false
+    },
+    {
+      "name": "car.assistance.yes",
+      "value": true
+    },
+    {
+      "name": "object.previous-insurance.vehicle-liability.no-claim-discount",
+      "value": "SF5"
+    },
+    {
+      "name": "object.previous-insurance.fully-comprehensive.no-claim-discount",
+      "value": "SF15"
+    },
+    {
+      "name": "car.vehicle.driver.youngest.age"
+    },
+    {
+      "name": "object.secondary-car.vehicle-liability.no-claim-discount"
+    },
+    {
+      "name": "object.secondary-car.fully-comprehensive.no-claim-discount"
+    },
+    {
+      "name": "car.vehicle-liability.no-claim-discount",
+      "value": "SF45"
+    },
+    {
+      "name": "car.fully-comprehensive.no-claim-discount",
+      "value": "SF35"
+    }
+  ],
+  "insurance_lines": [],
+  "payments": [],
+  "portfolio_owners": [],
+  "user": {
+    "_id": "5d945c0c4f736000047a549e",
+    "name": "pro-check24"
+  },
+  "customer": {
+    "type": "natural_person",
+    "first_name": "german",
+    "last_name": "iturralde",
+    "gender": "1",
+    "birthdate": "1986-01-01T00:00:00.000Z",
+    "mobile_number": "01708246883",
+    "phone_number": "01708246883",
+    "email": "german.iturralde+3103previous@wefoxgroup.com",
+    "address": {
+      "state": null,
+      "street": "Löcherhaldenstr.",
+      "house_number": "53",
+      "postal_code": "73770",
+      "place": "Denkendorf",
+      "country": "DE"
+    }
+  },
+  "calculation_date": "2020-12-14",
+  "premium_without_tax": 340.74,
+  "premium_with_tax": 405.48,
+  "tax": 64.74,
+  "currency": "EUR",
+  "product_version": "2",
+  "payment_frequency": "Yearly",
+  "end_of_term": "yearly",
+  "revocation_date_limit": "Mon Dec 14 2020 00:00:00 GMT+0000",
+  "package": {
+    "name": "Car Fully Comp - Comfort",
+    "label": "fully-comprehensive-comfort"
+  },
+  "created_date": "2020-12-14T23:25:32.732Z",
+  "last_modified_date": "2020-12-14T23:25:32.732Z"
+}

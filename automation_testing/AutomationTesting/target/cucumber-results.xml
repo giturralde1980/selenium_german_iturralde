@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.272">
+    <testcase classname="Custom Salesforce endpoint for enablig unmatching searches with ocr result" name="Case is created with mismatch result between salesforce and ocr-hyperscience" time="12.937">
+        <system-out>
+            <![CDATA[Given a case is created after a sumission ocr process finish with a mismatch.passed
+When a request is done against salesforce to ocrresult given  previous case.passed
+Then ocrresult is obtained and matches with case request....................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
